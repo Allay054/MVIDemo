@@ -96,7 +96,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
     @SuppressLint("NotifyDataSetChanged")
     private fun renderList(users: List<User>) {
         binding.recyclerView.visibility = View.VISIBLE
