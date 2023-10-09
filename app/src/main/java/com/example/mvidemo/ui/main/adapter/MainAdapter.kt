@@ -1,7 +1,6 @@
 package com.example.mvidemo.ui.main.adapter
 
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -29,14 +28,6 @@ class MainAdapter(
         }
     }
 
-
-//    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
-//        DataViewHolder(
-//            LayoutInflater.from(parent.context).inflate(
-//                R.layout.item_layout, parent,
-//                false
-//            )
-//        )
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): DataViewHolder {
         return DataViewHolder(
             ItemLayoutBinding.inflate(
