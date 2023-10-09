@@ -44,8 +44,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
-
     private fun setupUI() {
         binding.recyclerView.layoutManager = LinearLayoutManager(this)
         binding.recyclerView.run {
@@ -58,7 +56,6 @@ class MainActivity : AppCompatActivity() {
         }
         binding.recyclerView.adapter = adapter
     }
-
 
     private fun setupViewModel() {
         mainViewModel = ViewModelProviders.of(
