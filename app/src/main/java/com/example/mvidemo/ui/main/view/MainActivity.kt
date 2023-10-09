@@ -106,4 +106,5 @@ class MainActivity : AppCompatActivity() {
         users.let { listOfUsers -> listOfUsers.let { adapter.addData(it) } }
         adapter.notifyDataSetChanged()
     }
+
 }
